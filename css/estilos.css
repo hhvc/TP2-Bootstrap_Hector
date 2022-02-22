@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-.fakeimg {
-    height: 200px;
-    background: #aaa;
-}
 .navbar{
     background-color:rgba(18, 201, 134, 0.384) !important;
 }
@@ -12,6 +8,7 @@
 .logo:hover{
     background-color: rgba(19, 94, 66, 0.384);
     border-radius: 50%;
+    transition: all .1s;
 }
 .nav-link{
     font-family: 'Dancing Script', cursive;
@@ -23,6 +20,7 @@
     font-size: 1.4rem;
     background-color: rgba(19, 94, 66, 0.384);
     border-radius: 50%;
+    transition: all .1s;
 }
 .main2{
     background-color: white;
@@ -34,4 +32,12 @@
 .footerUl{
 display: flex;
 list-style: none;
+}
+.carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-top: 1px;
+    border-bottom: 1px;
+    transition-property: background;
 }
